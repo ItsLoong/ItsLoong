@@ -1,72 +1,52 @@
 <p align="center">
-  <img src="./assets/moonlight-banner.webp" width="100%" alt="Loong 的月夜观测室：银紫发少女与小白龙，窗外是星空与云海" />
+  <img src="./assets/arcade-header.svg" width="960" alt="LOONG · 8-bit 街机存档">
 </p>
 
-<h1 align="center">月夜观测室</h1>
-
-<p align="center"><b>把灵感写进代码，把世界记录成帧。</b></p>
+<p align="center"><b>每一次贡献，都点亮一格地图。</b><br>写一点代码，存一个进度，下一关继续。</p>
 
 <p align="center">
-  我是 <b>Loong</b>，这里放着我的 C++ 工具与 RGB-D 采集实验。<br />
-  欢迎来我的小小观测室坐坐。
+  <a href="https://github.com/ItsLoong?tab=repositories">代码存档 · 仓库</a>
+  &nbsp; / &nbsp;
+  <a href="https://github.com/ItsLoong?tab=stars">道具收藏 · Stars</a>
+  &nbsp; / &nbsp;
+  <a href="https://github.com/ItsLoong/ItsLoong/issues">留言板</a>
 </p>
 
-<p align="center">
-  <img src="./assets/typing.svg" width="520" alt="C++20 · RGB-D · 开源工具" />
-</p>
+### 吃豆人 · 贡献地图
 
-<p align="center">
-  <a href="https://github.com/ItsLoong/ObCapture">ObCapture</a>
-  &nbsp; · &nbsp;
-  <a href="https://github.com/ItsLoong/ObCapture/tree/main/docs">开发笔记</a>
-  &nbsp; · &nbsp;
-  <a href="https://github.com/ItsLoong?tab=repositories">全部仓库</a>
-</p>
+过去一年的贡献记录，变成吃豆人与幽灵追逐的街机地图。
 
-<br />
-
-## 工作台上的小作品
-
-### [ObCapture](https://github.com/ItsLoong/ObCapture)
-
-**让相机看到的世界，成为可以保存、检查与回放的数据。**
-
-基于 Orbbec SDK v2 的现代 C++ 相机采集、录制与诊断库，优先支持 Gemini 338Le 以太网 RGB-D 相机。
-
-<p>
-  <img src="./assets/cpp.svg" alt="C++20" />
-  <img src="./assets/cmake.svg" alt="CMake" />
-  <img src="./assets/rgbd.svg" alt="RGB-D" />
-  <img src="./assets/license.svg" alt="ObCapture 使用 MIT 许可证" />
-</p>
-
-- **找到设备** — 按序列号或 IP 选择相机，查看可用的数据流配置
-- **留下每一帧** — 异步保存图像、IMU 数据与逐帧索引，保留时间戳和深度信息
-- **让记录可检查** — 保存会话状态与校验信息，支持脱离相机的离线校验
-
-[查看源码](https://github.com/ItsLoong/ObCapture) · [采集指南](https://github.com/ItsLoong/ObCapture/blob/main/docs/Capture.md) · [回放指南](https://github.com/ItsLoong/ObCapture/blob/main/docs/Playback.md)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ItsLoong/ItsLoong/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ItsLoong/ItsLoong/output/pacman-contribution-graph.svg">
+  <img alt="ItsLoong 的真实 GitHub 贡献记录：吃豆人街机动画" src="https://raw.githubusercontent.com/ItsLoong/ItsLoong/output/pacman-contribution-graph.svg" width="100%">
+</picture>
 
 <details>
-<summary><b>打开工具抽屉：构建与验证</b></summary>
+<summary><b>切换卡带 · 打砖块 / 太空射击</b></summary>
 
-<br />
+#### 打砖块
 
-项目使用 C++20 与 CMake，并提供不依赖相机或 SDK 的核心构建和离线测试路径。
+把贡献格子变成砖块，看小球逐个击破。
 
-```sh
-cmake -S . -B build-offline -DOBCAPTURE_WITH_ORBBEC=OFF
-cmake --build build-offline --parallel
-ctest --test-dir build-offline --output-on-failure
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ItsLoong/ItsLoong/output/breakout-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ItsLoong/ItsLoong/output/breakout-contribution-graph.svg">
+  <img alt="ItsLoong 的真实 GitHub 贡献记录：打砖块街机动画" src="https://raw.githubusercontent.com/ItsLoong/ItsLoong/output/breakout-contribution-graph.svg" width="100%">
+</picture>
 
-在 ObCapture 仓库根目录执行上述命令。完整依赖与相机构建步骤见 [项目说明](https://github.com/ItsLoong/ObCapture#readme)。
+#### 太空射击
+
+驾驶像素战机，穿过这一年的贡献星图。
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ItsLoong/ItsLoong/output/galaga-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ItsLoong/ItsLoong/output/galaga-contribution-graph.svg">
+  <img alt="ItsLoong 的真实 GitHub 贡献记录：太空射击街机动画" src="https://raw.githubusercontent.com/ItsLoong/ItsLoong/output/galaga-contribution-graph.svg" width="100%">
+</picture>
 
 </details>
 
-<br />
+<p align="center"><sub>真实贡献 · 每日更新 · 自动播放的街机动画</sub></p>
 
-<p align="center">
-  <img src="./assets/star-divider.svg" width="600" alt="星月分隔线" />
-</p>
-
-<p align="center"><sub>谢谢你路过这里。愿下一次灵感，也像星光一样抵达。</sub></p>
+<p align="center"><sub>感谢来访，下次读档见。</sub></p>
