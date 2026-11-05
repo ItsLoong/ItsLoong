@@ -1,0 +1,32 @@
+name: 更新街机贡献日历
+on:
+  schedule:
+    - cron: '23 1 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/arcade.yml']
+permissions:
+  contents: write
+concurrency:
+  group: arcade-calendar
+  cancel-in-progress: false
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: 从真实贡献记录生成街机动画
+        uses: abozanona/pacman-contribution-graph@294c47eff28a41339a279107ae771b5fa020037a
+        with:
+          github_user_name: ItsLoong
+          games: 'pacman,breakout,galaga'
+          hide_month_labels: 'false'
+      - name: 发布贡献日历
+        uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: 更新街机贡献日历
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
