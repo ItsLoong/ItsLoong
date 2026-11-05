@@ -23,7 +23,7 @@
 </picture>
 
 <details>
-<summary><b>切换卡带 · 打砖块 / 太空射击</b></summary>
+<summary><b>展开其他卡带 · 打砖块 / 太空射击</b></summary>
 
 #### 打砖块
 
@@ -37,7 +37,7 @@
 
 #### 太空射击
 
-驾驶像素战机，穿过这一年的贡献星图。
+看像素战机穿过这一年的贡献星图。
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ItsLoong/ItsLoong/output/galaga-contribution-graph-dark.svg">
