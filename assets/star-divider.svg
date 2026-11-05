@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="44" viewBox="0 0 600 44" fill="none" role="img" aria-labelledby="title">
+  <title id="title">星月分隔线</title>
+  <path d="M50 22H254M346 22H550" stroke="#7D8CB2" stroke-opacity=".6"/>
+  <path d="m271 18 1.2 2.8L275 22l-2.8 1.2L271 26l-1.2-2.8L267 22l2.8-1.2ZM329 18l1.2 2.8L333 22l-2.8 1.2L329 26l-1.2-2.8L325 22l2.8-1.2Z" fill="#9C97CB"/>
+  <path d="M305 10a12 12 0 1 0 7 19 11 11 0 0 1-7-19Z" stroke="#8EACD6" stroke-width="1.5"/>
+</svg>
