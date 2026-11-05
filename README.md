@@ -16,11 +16,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/ItsLoong/ObCapture">探索 ObCapture</a>
+  <a href="https://github.com/ItsLoong/ObCapture">ObCapture</a>
   &nbsp; · &nbsp;
-  <a href="https://github.com/ItsLoong/ObCapture/tree/main/docs">翻阅开发笔记</a>
+  <a href="https://github.com/ItsLoong/ObCapture/tree/main/docs">开发笔记</a>
   &nbsp; · &nbsp;
-  <a href="https://github.com/ItsLoong?tab=repositories">查看全部仓库</a>
+  <a href="https://github.com/ItsLoong?tab=repositories">全部仓库</a>
 </p>
 
 <br />
